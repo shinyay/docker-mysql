@@ -4,7 +4,7 @@ services:
     build:
       context: ./mysql
       dockerfile: Dockerfile
-    image: mysql:5.7
+    image: shinyay/mysql:5.7
     container_name: my_db
     environment:
       MYSQL_ROOT_PASSWORD: root
