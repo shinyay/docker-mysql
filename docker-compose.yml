@@ -1,7 +1,9 @@
 version: "3.7"
 services:
   db:
-    build: ./mysql
+    build:
+      context: ./mysql
+      dockerfile: Dockerfile
     image: mysql:5.7
     container_name: my_db
     environment:
