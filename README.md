@@ -15,9 +15,10 @@ Overview
 
 ## Usage
 ### MySQL Server
-'''
+
+```
 $ docker-compose up -d
-'''
+```
 
 ### MySQL Client
 ```
